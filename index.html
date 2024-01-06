@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>gerador de senhas</title>
+  </head>
+  <body>
+    <center>
+      <h1>gerador de senhas</h1>
+      <p>vai ter numeros?</p>
+      <div>
+        <button onclick="click1()" id="sim1">Sim</button>
+        <button onclick="click2()" id="nao1">nao</button>
+      </div>
+      <p>vai ter caracteries especiais?</p>
+      <div>
+        <button onclick="click3()" id="sim2">Sim</button>
+        <button onclick="click4()" id="nao2">nao</button>
+      </div>
+      <p>vai ter letras?</p>
+      <div>
+        <button onclick="click5()" id="sim3">Sim</button>
+        <button onclick="click6()" id="nao3">nao</button>
+      </div>
+      <button id="gerar" onclick="gere()">Gerar</button>
+      <p id="result">resultado :</p>
+    </center>
+  </body>
+  <style>
+    button{
+      background-color :white;
+    }
+    h1{
+      font-family :'Arial';
+    }
+    p{
+      font-family :'Arial';
+    }
+    #gerar{
+      background-color: gray;
+    }
+  </style>
+</html>
+<script src="script.js"></script>
