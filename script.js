@@ -41,21 +41,21 @@ function click6(){
 function gere(){
   resposta = "";
   if(trueOrFalse1==true){
-    for(let i=0; i<=5; i++){
+    for(let i=0; i<=parseInt(document.getElementById("tamanho").value); i++){
       numeros1 = Math.floor(Math.random() * 9) + 0;
       resposta = resposta+numeros[numeros1];
       document.getElementById("result").innerText = resposta;
     }
   }
   if(trueOrFalse3==true){
-    for(let z=0; z<=4; z++){
+    for(document.getElementById("tamanho").value); z<=4; z++){
       letras1 = Math.floor(Math.random() * 3) + 0;
       resposta = resposta+letras[letras1];
       document.getElementById("result").innerText = resposta;
     }
   }
   if(trueOrFalse2==true){
-    for(let k=0; k<=5; k++){
+    for(document.getElementById("tamanho").value); k<=5; k++){
       especial1 = Math.floor(Math.random() * 4) + 0;
       resposta = resposta+especial[especial1];
       document.getElementById("result").innerText = resposta;
