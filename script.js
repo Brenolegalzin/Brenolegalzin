@@ -48,14 +48,14 @@ function gere(){
     }
   }
   if(trueOrFalse3==true){
-    for(document.getElementById("tamanho").value); z<=4; z++){
+    for(let z=0; z<=parseInt(document.getElementById("tamanho").value); z++){
       letras1 = Math.floor(Math.random() * 3) + 0;
       resposta = resposta+letras[letras1];
       document.getElementById("result").innerText = resposta;
     }
   }
   if(trueOrFalse2==true){
-    for(document.getElementById("tamanho").value); k<=5; k++){
+    for(let k=0; k<=parseInt(document.getElementById("tamanho").value); k++){
       especial1 = Math.floor(Math.random() * 4) + 0;
       resposta = resposta+especial[especial1];
       document.getElementById("result").innerText = resposta;
