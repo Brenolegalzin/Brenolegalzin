@@ -48,7 +48,7 @@ function gere(){
     }
   }
   if(trueOrFalse3==true){
-    for(let z=0; z<=5; z++){
+    for(let z=0; z<=4; z++){
       letras1 = Math.floor(Math.random() * 3) + 0;
       resposta = resposta+letras[letras1];
       document.getElementById("result").innerText = resposta;
