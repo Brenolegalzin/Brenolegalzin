@@ -42,21 +42,21 @@ function gere(){
   resposta = "";
   let tamanho = parseInt(prompt("tamanho da senha"));
   if(trueOrFalse1==true){
-    for(let i=0; i<=tamanho; i++){
+    for(let i=1; i<=tamanho; i++){
       numeros1 = Math.floor(Math.random() * 9) + 0;
       resposta = resposta+numeros[numeros1];
       document.getElementById("result").innerText = resposta;
     }
   }
   if(trueOrFalse3==true){
-    for(let z=0; z<=tamanho; z++){
+    for(let z=1; z<=tamanho; z++){
       letras1 = Math.floor(Math.random() * 3) + 0;
       resposta = resposta+letras[letras1];
       document.getElementById("result").innerText = resposta;
     }
   }
   if(trueOrFalse2==true){
-    for(let k=0; k<=tamanho; k++){
+    for(let k=1; k<=tamanho; k++){
       especial1 = Math.floor(Math.random() * 4) + 0;
       resposta = resposta+especial[especial1];
       document.getElementById("result").innerText = resposta;
