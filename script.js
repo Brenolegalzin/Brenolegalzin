@@ -36,24 +36,28 @@ function click6(){
 }
 function gere(){
   resposta = "";
+  let tamanho = document.getElementById("")
   if(trueOrFalse1==true){
     for(let i=0; i<=tamanho; i++){
       coisas1 = Math.floor(Math.random() * 16) + 0;
-      resposta = resposta+coisas[coisas];
+      resposta = resposta+coisas[coisas1];
       resposta.replace(["0","1","2","3","4","5","6","7","8","9"], "");
+      document.getElementById("result").innerText = resposta;
     }
   }
   if(trueOrFalse3==true){
     for(let z=0; z<=tamanho; z++){
-      letras1 = Math.floor(Math.random() * 3) + 0;
-      resposta = resposta+letras[letras1];
+      coisas1 = Math.floor(Math.random() * 16) + 0;
+      resposta = resposta+coisas[coisas1];
+      resposta.replace([".","!","*","+"], "");
       document.getElementById("result").innerText = resposta;
     }
   }
   if(trueOrFalse2==true){
     for(let k=0; k<=tamanho; k++){
-      especial1 = Math.floor(Math.random() * 4) + 0;
-      resposta = resposta+especial[especial1];
+      coisas1 = Math.floor(Math.random() * 16) + 0;
+      resposta = resposta+coisas[coisas1];
+      resposta.replace(["a","b","c"], "");
       document.getElementById("result").innerText = resposta;
     }
   }
