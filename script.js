@@ -1,12 +1,8 @@
 let trueOrFalse1 = false;
 let trueOrFalse2 = false;
 let trueOrFalse3 = false;
-let especial = [".","!","*","+"]
-let numeros = ["0","1","2","3","4","5","6","7","8","9"]
-let letras = ["a","b","c"]
-let numeros1 = Math.floor(Math.random() * 9) + 0;
-let especial1 = Math.floor(Math.random() * 3) + 0;
-let letras1 = Math.floor(Math.random() * 2) + 0;
+let coisas = ["0","1","2","3","4","5","6","7","8","9","a","b","c",".","!","*","+"]
+let coisas1 = Math.floor(Math.random() * 16) + 0;
 let resposta = ""
 function click1(){
   document.querySelector("#sim1").style.backgroundColor = "blue";
@@ -40,12 +36,11 @@ function click6(){
 }
 function gere(){
   resposta = "";
-  let tamanho = parseInt(prompt("tamanho da senha"));
   if(trueOrFalse1==true){
     for(let i=0; i<=tamanho; i++){
-      numeros1 = Math.floor(Math.random() * 9) + 0;
-      resposta = resposta+numeros[numeros1];
-      document.getElementById("result").innerText = resposta;
+      coisas1 = Math.floor(Math.random() * 16) + 0;
+      resposta = resposta+coisas[coisas];
+      resposta.replace(["0","1","2","3","4","5","6","7","8","9"], "");
     }
   }
   if(trueOrFalse3==true){
