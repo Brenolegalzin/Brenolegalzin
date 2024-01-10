@@ -36,7 +36,7 @@ function click6(){
 }
 function gere(){
   resposta = "";
-  let tamanho = document.getElementById("")
+  let tamanho = parseInt(document.getElementById("quantidade").value);
   if(trueOrFalse1==true){
     for(let i=0; i<=tamanho; i++){
       coisas1 = Math.floor(Math.random() * 16) + 0;
