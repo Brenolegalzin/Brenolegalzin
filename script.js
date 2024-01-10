@@ -4,6 +4,7 @@ let trueOrFalse3 = false;
 let coisas = ["0","1","2","3","4","5","6","7","8","9","a","b","c",".","!","*","+"]
 let coisas1 = Math.floor(Math.random() * 16) + 0;
 let resposta = ""
+let tamanho = "";
 function click1(){
   document.querySelector("#sim1").style.backgroundColor = "blue";
   trueOrFalse1 = true;
@@ -36,7 +37,7 @@ function click6(){
 }
 function gere(){
   resposta = "";
-  let tamanho = parseInt(document.getElementById("quantidade").value);
+  tamanho = parseInt(document.getElementById("quantidade").value);
   if(trueOrFalse1==true){
     for(let i=0; i<=tamanho; i++){
       coisas1 = Math.floor(Math.random() * 16) + 0;
