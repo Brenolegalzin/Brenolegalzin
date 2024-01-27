@@ -1,7 +1,7 @@
 let trueOrFalse1 = false;
 let trueOrFalse2 = false;
 let trueOrFalse3 = false;
-let coisas = ["0","1","2","3","4","5","6","7","8","9","a","b","c",".","!","*","+"]
+let coisas = [];
 let coisas1 = Math.floor(Math.random() * 16) + 0;
 let resposta = ""
 let tamanho = "";
