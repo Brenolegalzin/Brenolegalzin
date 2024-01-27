@@ -36,7 +36,7 @@ function click6(){
   document.querySelector("#nao3").style.backgroundColor = "blue";
 }
 function gere(){
-  if(trueOrfalse1==true){
+  if(trueOrFalse1==true){
     coisas.push("0");
     coisas.push("1");
     coisas.push("2");
@@ -60,7 +60,7 @@ function gere(){
     coisas.slice("8");
     coisas.slice("9");
   }
-  if(trueOrfalse2==true){
+  if(trueOrFalse2==true){
     coisas.push(".");
     coisas.push("!");
     coisas.push("*");
@@ -72,7 +72,7 @@ function gere(){
     coisas.slice("*");
     coisas.slice("+");
   }
-  if(trueOrfalse3==true){
+  if(trueOrFalse3==true){
     coisas.push("a");
     coisas.push("b");
     coisas.push("c");
