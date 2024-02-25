@@ -1,0 +1,39 @@
+<html lang="pt-br">
+  <head>
+    <title>gerador de senhas</title>
+  </head>
+  <body>
+    <center>
+	  <h1>Gerador de senhas</h1>
+	  <p>vai ter caracteries especiais?</p>
+      <input id="caracteries" type="checkbox">
+      <p>vai ter letras?</p>
+      <input id="letras" type="checkbox">
+      <p>vai ter numeros?</p>
+      <div>
+        <input id="numeros" type="checkbox">
+      </div>
+      <p>quantidade de caracteries :</p>
+      <input id="quantidade" type="number">
+      <button onclick="generatePassword()">gerar</button>
+      <p id="result">Resultado :</p>
+    </center>
+  </body>
+  <style>
+	*{
+		background-color :white;
+	}
+	p{
+		font-family :'Arial';
+	}
+	
+    button{
+		background-color :gray;
+	}
+	h1{
+		font-family :'Arial';
+		color :aqua;
+	}
+  </style>
+</html>
+<script src="script.js"></script>
